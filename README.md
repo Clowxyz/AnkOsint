@@ -12,8 +12,11 @@ AnkOsint Open Source Intelligence Tool
 
 ## Setup
 
-1. pip install -r requirements.txt
-2. Run code (python main.py)
+pip install -r requirements.txt
+
+## Usage
+
+python main.py
 
 ## License
 
