@@ -13,6 +13,7 @@ pip install -r requirements.txt
 python AnkOsint.py
 ```
 
+![photo_2024-12-09_01-10-17](https://github.com/user-attachments/assets/ac82f923-569b-4c3c-abe4-de021daea653)
 
 
 
