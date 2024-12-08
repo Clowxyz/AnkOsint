@@ -1,9 +1,36 @@
-# AnkOsint
-AnkOsint Open Source Intelligence Tool
+# AnkOsint / AnkOsint Open Source Intelligence Tool
 
-## Features
+![file-XUJqapCLqDyLzkWo3JFHso-modified](https://github.com/user-attachments/assets/80b9ed40-8644-46ea-aadf-4787e1e6bbfd)
 
--  We are not thinking
+
+
+## Usage
+```sh
+git clone https://github.com/Dogu589/AnkOsint
+cd AnkOsint-main
+
+pip install -r requirements.txt
+python AnkOsint.py
+```
+
+
+
+
+## For Whom
+
+● Cyber Security Experts: Collect information from open sources on the Internet and use it to analyze potential threats and vulnerabilities.
+
+● Security Researchers: Collect and analyze cyber threat intelligence, scan for vulnerabilities and collect data on security incidents.
+
+● Journalists and Researchers: They can use this tool to gather information from publicly available data, conduct research and get support in verification processes.
+
+● Private Investigators and Legal Professionals: They can use the tool to investigate, analyze and gather evidence from open-source data.
+
+● Corporate Security Teams: Use it to improve in-house threat intelligence and support brand protection and cyber risk management processes.
+
+● Academics and Students: Use it to learn OSINT techniques, collect and analyze data for research projects.
+
+● Activists and Civil Society Organizations: They can use this tool to gather information and raise awareness about human rights violations, environmental issues and other social issues.
 
 ## Install
 
@@ -12,11 +39,8 @@ AnkOsint Open Source Intelligence Tool
 
 ## Setup
 
-pip install -r requirements.txt
-
-## Usage
-
-python main.py
+1. pip install -r requirements.txt
+2. Run code (python main.py)
 
 ## License
 
