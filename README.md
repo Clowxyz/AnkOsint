@@ -7,7 +7,7 @@
 ## ✔️Usage
 ```sh
 git clone https://github.com/Dogu589/AnkOsint
-cd AnkOsint-main
+cd AnkOsint
 
 pip install -r requirements.txt
 python AnkOsint.py
