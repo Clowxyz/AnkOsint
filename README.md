@@ -4,7 +4,7 @@
 
 
 
-## Usage
+## ✔️Usage
 ```sh
 git clone https://github.com/Dogu589/AnkOsint
 cd AnkOsint-main
@@ -16,7 +16,7 @@ python AnkOsint.py
 
 
 
-## For Whom
+## 🥷For Whom
 
 ● Cyber Security Experts: Collect information from open sources on the Internet and use it to analyze potential threats and vulnerabilities.
 
@@ -32,16 +32,16 @@ python AnkOsint.py
 
 ● Activists and Civil Society Organizations: They can use this tool to gather information and raise awareness about human rights violations, environmental issues and other social issues.
 
-## Install
+## ⚙️Install
 
 1. Download source code from [here](https://codeload.github.com/Dogu589/AnkOsint/zip/refs/heads/main)
 2. Download [python](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
 
-## Setup
+## ✅Setup
 
 1. pip install -r requirements.txt
 2. Run code (python main.py)
 
-## License
+## ⚖️License
 
 This tool is licensed under the <a href="https://mit-license.org/">MIT License</a>.
