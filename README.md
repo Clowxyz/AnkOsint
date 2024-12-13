@@ -6,7 +6,7 @@
 
 ## ✔️Usage
 ```sh
-git clone https://github.com/Dogu589/AnkOsint
+git clone https://github.com/Clowxyz/AnkOsint
 cd AnkOsint
 
 pip install -r requirements.txt
@@ -35,13 +35,13 @@ python AnkOsint.py
 
 ## ⚙️Install
 
-1. Download source code from [here](https://codeload.github.com/Dogu589/AnkOsint/zip/refs/heads/main)
+1. Download source code from [here](https://codeload.github.com/Clowxyz/AnkOsint/zip/refs/heads/main)
 2. Download [python](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
 
 ## ✅Setup
 
 1. pip install -r requirements.txt
-2. Run code (python main.py)
+2. Run code (python AnkOsint.py)
 
 ## ⚖️License
 
