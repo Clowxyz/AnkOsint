@@ -71,7 +71,6 @@ O00OOOOOOO0O0000O ,OO00OO0OO0O0O00OO ,OO00OO0O00OO0O0OO ,O000O00OOO0OOOOOO ,OO00
                    /_/ \\_\\|_||_| |_\\_\\  \\___/ /__/|_||_||_|  \\__|
                                                 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-    {Fore.CYAN}Don't worry, the tool will be even better, be patient!
     {Fore.LIGHTWHITE_EX}[{Fore.LIGHTCYAN_EX}01{Fore.LIGHTWHITE_EX}] Enter information about the person (Name Surname, Nick Name etc.)
     {Fore.LIGHTWHITE_EX}[{Fore.LIGHTCYAN_EX}02{Fore.LIGHTWHITE_EX}] Enter email information (user@sample.com)
     {Fore.LIGHTWHITE_EX}[{Fore.LIGHTCYAN_EX}03{Fore.LIGHTWHITE_EX}] Enter Phone Number (+12345678901)
@@ -389,19 +388,8 @@ O00OOOOOOO0O0000O ,OO00OO0OO0O0O00OO ,OO00OO0O00OO0O0OO ,O000O00OOO0OOOOOO ,OO00
 		if OO00O00O000O0OOOO .status_code ==200 :O0O0000O00O0OO00O =OO00O00O000O0OOOO .json ();print (f"{Fore.LIGHTCYAN_EX}[WAIT]{Fore.LIGHTWHITE_EX} Geolocation : {O0OOOO000O0O0O0O0}");print (f"{Fore.LIGHTWHITE_EX}├ {Fore.LIGHTGREEN_EX}[SUCCESS]{Fore.LIGHTWHITE_EX} IP : ",O0O0000O00O0OO00O .get ('ip'));print (f"{Fore.LIGHTWHITE_EX}├ {Fore.LIGHTGREEN_EX}[SUCCESS]{Fore.LIGHTWHITE_EX} Country : ",O0O0000O00O0OO00O .get ('country'));print (f"{Fore.LIGHTWHITE_EX}├ {Fore.LIGHTGREEN_EX}[SUCCESS]{Fore.LIGHTWHITE_EX} City : ",O0O0000O00O0OO00O .get ('city'));print (f"{Fore.LIGHTWHITE_EX}├ {Fore.LIGHTGREEN_EX}[SUCCESS]{Fore.LIGHTWHITE_EX} Location : ",O0O0000O00O0OO00O .get ('loc'));print (f"{Fore.LIGHTWHITE_EX}├ {Fore.LIGHTGREEN_EX}[SUCCESS]{Fore.LIGHTWHITE_EX} Hostname : ",O0O0000O00O0OO00O .get ('hostname'))#line:386
 	def mac_lookup (OO0OOOOO0O0O0O00O ,OOO000O0OOOOOO0OO ):#line:387
 		O00000O0OOOO0O0O0 ='utf8';O0OO0000O0O000O00 ='http://standards-oui.ieee.org/oui.txt';OO0OOO0O0O00OOO0O =OOO000O0OOOOOO0OO .replace (':','').replace ('-','').upper ()#line:388
-		def OO0OOO000O0O0O0OO ():#line:389
-			OOO0O0OO000O000OO ='(base 16)'#line:390
-			if os .path .exists (OO0OOOO00O0000OOO ):os .remove (OO0OOOO00O0000OOO )#line:391
-			O0O000O0O0OOOO00O =requests .get (url =O0OO0000O0O000O00 );O0OO0OO00O000O0OO =BeautifulSoup (O0O000O0O0OOOO00O .text ,'lxml').text #line:392
-			with open (OO0OOOO00O0000OOO ,_O00O0OO00OO0OOOOO ,encoding =O00000O0OOOO0O0O0 )as OO00OOOO00OO00OOO :#line:393
-				for O0000OOOOO000OOO0 in O0OO0OO00O000O0OO .split ('\n'):#line:394
-					if OOO0O0OO000O000OO in O0000OOOOO000OOO0 :OO00OOOO00OO00OOO .write (O0000OOOOO000OOO0 .replace (OOO0O0OO000O000OO ,''))#line:395
 		if platform .system ()=='Windows':OO0OOOO00O0000OOO =os .path .dirname (os .path .realpath (__file__ ))+'\\MAC_ADDRESS.txt'#line:396
 		else :OO0OOOO00O0000OOO =os .path .dirname (os .path .realpath (__file__ ))+'/MAC_ADDRESS.txt'#line:397
-		if not os .path .exists (OO0OOOO00O0000OOO ):#line:398
-			print (f"[{Fore.LIGHTMAGENTA_EX}?{Fore.RESET}] MAC_ADDRESS.txt not found, do you want to download it? [y/n]: ",end ='');O000O000O0OOO000O =input ('')#line:399
-			if O000O000O0OOO000O [0 ].lower ()=='y':OO0OOO000O0O0O0OO ()#line:400
-			else :sys .exit (1 )#line:401
 		with open (OO0OOOO00O0000OOO ,'r',encoding =O00000O0OOOO0O0O0 )as O0OO00000O0O000O0 :#line:402
 			O0OO0O0O0OO00OO00 =O0OO00000O0O000O0 .read ()#line:403
 			for O00OOOOO000OOOO0O in O0OO0O0O0OO00OO00 .split ('\n'):#line:404
